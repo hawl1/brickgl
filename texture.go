@@ -27,7 +27,7 @@ func TexFromBytes(data []byte) (tex Texture) {
 
 	tex = NewImageTexture(img)
 
-	return
+	return tex
 }
 
 // ImageTexture struct to hold image
